@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="kr.ac.jejunu.ticketremake">
+    package="kr.ac.jejunu.ticket">
 
     <application
         android:allowBackup="true"
@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".splash.SplashActivity"
+            android:name="kr.ac.jejunu.ticket.splash.SplashActivity"
             android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,7 +19,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".ui.main_ticket.MainTicket">
+        <activity android:name="kr.ac.jejunu.ticket.ui.main_ticket.MainTicket">
         </activity>
 
     </application>

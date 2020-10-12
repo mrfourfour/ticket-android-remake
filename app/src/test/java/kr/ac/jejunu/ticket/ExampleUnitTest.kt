@@ -1,4 +1,4 @@
-package kr.ac.jejunu.ticketremake
+package kr.ac.jejunu.ticket
 
 import org.junit.Test
 

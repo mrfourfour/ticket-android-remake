@@ -1,4 +1,4 @@
-package kr.ac.jejunu.ticketremake
+package kr.ac.jejunu.ticket
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
