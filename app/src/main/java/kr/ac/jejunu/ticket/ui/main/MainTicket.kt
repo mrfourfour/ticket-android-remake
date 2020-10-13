@@ -1,13 +1,14 @@
-package kr.ac.jejunu.ticketremake.ui.main_ticket
+package kr.ac.jejunu.ticket.ui.main
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
-import kr.ac.jejunu.ticketremake.R
-import kr.ac.jejunu.ticketremake.databinding.ActivityMainTicketBinding
+import kr.ac.jejunu.ticket.R
+import kr.ac.jejunu.ticket.databinding.ActivityMainTicketBinding
 
-private lateinit var binding : ActivityMainTicketBinding
-class MainTicket :AppCompatActivity(){
+private lateinit var binding: ActivityMainTicketBinding
+
+class MainTicket : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
