@@ -19,7 +19,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="kr.ac.jejunu.ticket.ui.main_ticket.MainTicket">
+        <activity android:name="kr.ac.jejunu.ticket.ui.main.MainTicket">
         </activity>
 
     </application>
